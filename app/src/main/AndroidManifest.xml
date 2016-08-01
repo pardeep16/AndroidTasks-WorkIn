@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="developer.pardeep.workin" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="WorkIn"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity android:name=".BroadcastReceiverActivity" >
+        </activity>
+        <!--
+        <receiver android:name=".CustomBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
+            </intent-filter>
+        </receiver>
+        -->
+        <activity
+            android:name=".FacebookLoginActivity"
+            android:label="@string/title_activity_facebook_login" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".GoogleLogIn"
+            android:label="@string/title_activity_google_log_in" >
+        </activity>
+        <activity
+            android:name=".LocationFindActivity"
+            android:label="@string/title_activity_location_find" >
+        </activity>
+        <activity
+            android:name=".LocationHistoryActivity"
+            android:label="Last Locations" >
+        </activity>
+        <activity
+            android:name=".CardAnimationActivity"
+            android:label="Hospitals" >
+        </activity>
+        <activity
+            android:name=".CategoriesSelectionRecyclerView"
+            android:label="@string/title_activity_categories_selection_recycler_view" >
+        </activity>
+        <activity android:name=".FirebaseActivity" >
+        </activity>
+        <activity
+            android:name=".AndroidGraphs"
+            android:label="Graphs" >
+        </activity>
+        <activity
+            android:name=".PacerActiviy"
+            android:label="Pacer POC" >
+        </activity>
+        <activity
+            android:name=".ImageUpload"
+            android:label="@string/title_activity_image_upload" >
+        </activity>
+        <activity
+            android:name=".MedimoSample"
+            android:label="@string/title_activity_medimo_sample" >
+        </activity>
+        <activity
+            android:name=".UploadFiles"
+            android:label="@string/title_activity_upload_files" >
+        </activity>
+        <activity
+            android:name=".UploadFileViewActivity"
+            android:label="@string/title_activity_upload_file_view"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <service
+            android:name=".UploadToServer"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".ViewFiles"
+            android:label="User Health Record" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Broadcast SMS"/>
+    <EditText
+        android:id="@+id/editTextViewBroadcastSms"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextdiagnostics"/>
+    <Button
+        android:id="@+id/dynamicButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       />
+</LinearLayout>

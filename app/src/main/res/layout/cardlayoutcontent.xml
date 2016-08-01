@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstCardView"
+        android:background="@drawable/borderview"
+        android:layout_marginBottom="3dp"
+        app:cardCornerRadius="5dp"
+        >
+
+
+       <RelativeLayout
+           android:id="@+id/relativeLayoutCard"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="8dp">
+           <ImageView
+               android:id="@+id/imageViewHospital"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:src="@drawable/hosp_icon"
+               android:layout_centerVertical="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hospital"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="5dp"
+               android:textSize="20sp"
+               android:textColor="@android:color/black"
+               android:layout_toRightOf="@+id/imageViewHospital"
+               android:layout_toEndOf="@+id/imageViewHospital"
+               android:id="@+id/textViewHospital" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hospital"
+               android:id="@+id/textViewHospitalDescription"
+               android:textSize="15sp"
+               android:layout_below="@+id/textViewHospital"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="10dp"
+               android:layout_toRightOf="@+id/imageViewHospital"
+               android:layout_toEndOf="@+id/imageViewHospital" />
+
+
+
+       </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="WorkIn"
+                android:gravity="center_horizontal|center_vertical|center"
+                android:textSize="30sp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@android:color/white"/>
+            <android.support.v7.widget.CardView
+                android:layout_margin="10dp"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardBroadCastReceiver">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/textViewBroadCastCard"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Module :1"
+                        android:textColor="@android:color/holo_red_light"
+                        android:layout_margin="8dp"
+                        android:paddingBottom="5dp"
+                        />
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColor="@android:color/black"
+                        android:text="Broadcast Receivers and Intent Services"
+                        android:layout_margin="4dp"
+                        android:paddingBottom="5dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="10dp"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardViewFacebookGmail">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Module :2"
+                        android:textColor="@android:color/holo_red_light"
+                        android:layout_margin="8dp"
+                        android:paddingBottom="5dp"
+                        />
+                    <TextView
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Facebook And Gmail Login"
+                        android:layout_margin="4dp"
+                        android:paddingBottom="5dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="10dp"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardView">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Module :3"
+                        android:textColor="@android:color/holo_red_light"
+                        android:layout_margin="8dp"
+                        android:paddingBottom="5dp"
+                        />
+                    <TextView
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Google Fused Location API"
+                        android:layout_margin="4dp"
+                        android:paddingBottom="5dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

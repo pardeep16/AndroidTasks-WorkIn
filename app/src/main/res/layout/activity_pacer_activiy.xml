@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="developer.pardeep.workin.PacerActiviy">
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:background="@android:color/holo_blue_dark"></android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="Step Count"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="0"
+                android:id="@+id/counterValue"
+                android:gravity="center"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="Goal 1000"
+                android:gravity="center"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pauseButton"
+                    android:background="@drawable/ic_pause"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/playButton"
+                    android:background="@drawable/ic_play"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/xvalueTextView"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/yvalueTextView"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/zvalueTextView"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<android.support.design.widget.CoordinatorLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:context="developer.pardeep.workin.UploadFileViewActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayoutUploadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/holo_blue_dark">
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/textViewNoFileSelect"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="No File is choosen yet"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bottomlinearspace"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="40dp">
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+         >
+
+        <Button
+            android:id="@+id/captureButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:onClick="onSaveButtonClick"
+            android:text="Camera"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"/>
+        <Button
+            android:id="@+id/galleryButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1"
+            android:onClick="onCancelButtonClick"
+            android:text="Gallery"/>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingButtonUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_check"
+        cardview:backgroundTint="@android:color/holo_blue_light"></android.support.design.widget.FloatingActionButton>
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

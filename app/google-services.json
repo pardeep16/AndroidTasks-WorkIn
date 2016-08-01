@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153674233479",
+    "project_id": "loginapp-38c90"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153674233479:android:75798beef9af216c",
+        "android_client_info": {
+          "package_name": "developer.pardeep.facebooklogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153674233479-b3as2vivbhqihd8t5rqhgfg4paobkopr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "developer.pardeep.facebooklogin",
+            "certificate_hash": "933EE262F78955C1585EAB39593A9FF659B8C82B"
+          }
+        },
+        {
+          "client_id": "153674233479-6ck9ad32gp2ki30724445sup2cm260k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRMNpE2wrAbaLkrjMPd3iKgPN4vuUpJBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

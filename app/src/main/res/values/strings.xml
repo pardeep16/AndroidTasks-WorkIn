@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WorkIn</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="broadcast">Broadcast Receivers and IntentServices"</string>
+    <string name="title_activity_facebook_login">FacebookLoginActivity</string>
+    <string name="facebook_app_id">1018151351632235</string>
+    <string name="title_activity_google_log_in">GoogleLogIn</string>
+    <string name="title_activity_location_api">LocationApi</string>
+    <string name="title_activity_location_find">LocationFindActivity</string>
+    <string name="title_activity_location_history">LocationHistoryActivity</string>
+    <string name="title_activity_card_animation">CardAnimationActivity</string>
+    <string name="title_activity_categories_selection_recycler_view">
+        CategoriesSelectionRecyclerView
+    </string>
+    <string name="title_activity_pacer_activiy">PacerActiviy</string>
+    <string name="title_activity_image_upload">ImageUpload</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_medimo_sample">MedimoSample</string>
+    <string name="title_activity_upload_files">UploadFiles</string>
+    <string name="title_activity_upload_file_view">UploadFileViewActivity</string>
+    <string name="title_activity_view_files">ViewFiles</string>
+</resources>
