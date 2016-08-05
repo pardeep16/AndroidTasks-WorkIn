@@ -24,6 +24,13 @@
        </android.support.v7.widget.RecyclerView>
 
     </LinearLayout>
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBarVieFiles"/>
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingButtonUpload"
         android:layout_width="wrap_content"

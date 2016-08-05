@@ -43,6 +43,8 @@ dependencies {
     compile 'com.firebase:firebase-client-android:2.4.0'
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.google.apis:google-api-services-vision:v1-rev19-1.22.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 
     compile 'com.github.chrisbanes:PhotoView:1.2.6'
 

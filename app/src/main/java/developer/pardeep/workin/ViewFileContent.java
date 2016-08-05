@@ -4,13 +4,13 @@ package developer.pardeep.workin;
  * Created by pardeep on 25-07-2016.
  */
 public class ViewFileContent {
-    private String dateOfFile;
-    private String fileType;
-    private int imageData;
-    private String notesOfFile;
-    private String tagsOfFile;
+    private String dateOfFile="";
+    private String fileType="";
+    private String imageData;
+    private String notesOfFile="";
+    private String tagsOfFile="";
 
-    public ViewFileContent(String dateOfFile, String fileType, int imageData, String notesOfFile, String tagsOfFile) {
+    public ViewFileContent(String dateOfFile, String fileType,String imageData, String notesOfFile, String tagsOfFile) {
         this.dateOfFile = dateOfFile;
         this.fileType = fileType;
         this.imageData = imageData;
@@ -34,11 +34,11 @@ public class ViewFileContent {
         this.fileType = fileType;
     }
 
-    public int getImageData() {
+    public String getImageData() {
         return imageData;
     }
 
-    public void setImageData(int imageData) {
+    public void setImageData(String imageData) {
         this.imageData = imageData;
     }
 
