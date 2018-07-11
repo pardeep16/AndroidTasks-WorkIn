@@ -136,6 +136,7 @@ public class BroadcastReceiverActivity extends Activity {
             createNotification();
             editTextViewBroadcast=(EditText)findViewById(R.id.editTextViewBroadcastSms);
 
+            System.out.println("registered");
             Bundle bundle=intent.getExtras();
             if(bundle!=null){
                 Object[] pdus= (Object[]) bundle.get("pdus");
